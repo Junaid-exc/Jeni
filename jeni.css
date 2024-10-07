@@ -14,8 +14,8 @@ body {
   background-color: black;
   text-align: center;
 }
-img{
-  pointer-events: none;
+img, span,::selection{
+  background-color: transparent;
 }
 .jeni-cont {
   height: 90vh;
