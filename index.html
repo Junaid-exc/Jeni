@@ -27,6 +27,15 @@
         <button id="mic"> <img src="mic.svg"></button>
 
     </div>
+      <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener("touchstart", function(event) {
+            if (event.target.tagName === "img") {
+              event.preventDefault(); 
+            }
+          }, { passive: false });
+        </script>
+        
 
     <script src="jeni.js"></script>
 </body>
