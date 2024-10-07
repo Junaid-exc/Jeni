@@ -12,7 +12,7 @@ function speak(text) {
   textSpeak.lang = "hi-IN";
   window.speechSynthesis.speak(textSpeak);
 }
-/*function wishuser() {
+function wishuser() {
   let time = new Date().getHours();
   if (time > 0 && time < 12) {
     speak("Good Morning Sir");
@@ -30,7 +30,7 @@ function speak(text) {
 }
 window.addEventListener("load", () => {
   wishuser();
-});*/
+});
 let Spchrecgnizention =
   window.SpeechRecognition || window.webkitSpeechRecognition;
 let rechogniation = new Spchrecgnizention();
