@@ -92,8 +92,8 @@ function command(text) {
   else if (text.includes("who are you" || '')) {
     speak("I am Jeni, Made By Junaid Sir");
   }
-  else if (text.includes("who Is junaid" || 'junaid')) {
-    speak("Junaid sir, Is a web Devloper Live In Bagicha Chattisgarh And he is My Creator");
+  else if (text.includes("who Is junaid" || 'Junaid')) {
+    speak("Junaid sir, Is a web Devloper Live In Chattisgarh, And he is My Creator");
   }
   else if (text.includes("open YouTube" || 'yt')) {
     speak("Opening Youtube");
