@@ -94,18 +94,18 @@ function command(text) {
   else if (text.includes("who are you" || '')) {
     speak("I am Jeni, Made By Junaid Sir");
   }
-  else if (text.includes("who is junaid" || 'junaid.')) {
+  else if (text.includes("who is Junaid" || 'Junaid.')) {
     speak("Junaid sir, Is a web Devloper Live In Chattisgarh, And he is My Creator");
   }
   else if (text.includes("open youtube" || 'yt')) {
     speak("Opening Youtube");
     window.open('https://www.youtube.com/')
   }
-  else if (text.includes("open facebook" || 'yt')) {
+  else if (text.includes("open facebook" || 'fb')) {
     speak("Opening Facebook");
     window.open('https://www.facebook.com/')
   }
-  else if (text.includes("open instagram" || 'yt')) {
+  else if (text.includes("open instagram" || 'insta')) {
     speak("Opening instagram");
     window.open('https://www.instagram.com/')
   }
@@ -114,7 +114,7 @@ function command(text) {
 
 
   }
-  else if(text.includes('shyam' || 'shyamacharan')){
+  else if(text.includes('Shyam' || 'shyamacharan')){
     speak(" i dont know about this people, maybe a gay")
     
 
