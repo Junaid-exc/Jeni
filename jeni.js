@@ -86,7 +86,7 @@ micBtn.addEventListener('click', ()=>{
 function command(text) {
   text.replace('jeni', "")
   if (text.includes("hello" || 'hello.' || 'hey.' || 'hey' || 'yo' || "yo." ||"jeni")) {
-    speak("Hello sir How Can I Help You");
+    speak("Hello sir How Can I Help You?");
 
   }
   else if (text.includes("who are you" || '')) {
@@ -108,7 +108,7 @@ function command(text) {
     window.open('https://www.instagram.com/')
   }
   else if(text.includes('69' || 'sixty nine')){
-    speak("You are Friend Of Junaid sir 69 is a passcode")
+    speak("You are Friend Of, Junaid sir, 69 is a passcode")
 
 
   }
@@ -118,7 +118,7 @@ function command(text) {
 
   }
   else if(text.includes('j' || 'yo j')){
-    speak("Yo Junaid sir what i can do for you")
+    speak("Yo, Junaid sir, what i can do for you ?")
     
 
   }
