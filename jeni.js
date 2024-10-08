@@ -84,6 +84,7 @@ micBtn.addEventListener('click', ()=>{
 
 
 function command(text) {
+  text.replace('jenny' || 'Jenne', "jeni")
   text.replace('jeni', "")
   if (text.includes("hello" || 'hello.' || 'hey.' || 'hey' || 'yo' || "yo." ||"jeni")) {
     speak("Hello sir How Can I Help You?");
