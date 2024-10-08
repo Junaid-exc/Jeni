@@ -82,7 +82,9 @@ micBtn.addEventListener('click', ()=>{
 })
 
 
+
 function command(text) {
+  text.replace('jeni', "")
   if (text.includes("hello" || 'hello.' || 'hey.' || 'hey' || 'yo' || "yo." ||"jeni")) {
     speak("Hello sir How Can I Help You");
 
@@ -105,10 +107,33 @@ function command(text) {
     speak("Opening instagram");
     window.open('https://www.instagram.com/')
   }
+  else if(text.includes('69' || 'sixty nine')){
+    speak("You are Friend Of Junaid sir 69 is a passcode")
+
+
+  }
+  else if(text.includes('shyam' || 'shyamacharan')){
+    speak(" i dont know about this people, maybe a gay")
+    
+
+  }
+  else if(text.includes('j' || 'yo j')){
+    speak("Yo Junaid sir what i can do for you")
+    
+
+  }
+  else if(text.includes('kya' || 'hai')){
+    speak("I only understand english language")
+    
+
+  }
+
 
 
   else{
-    speak('sorry sir i unable to help you about this topic')
+    speak(`This is i found Regarding ${text}`);
+    window.open(`https://www.google.com/search?q=${text}`)
+
   }
  
   
