@@ -84,27 +84,28 @@ micBtn.addEventListener('click', ()=>{
 
 
 function command(text) {
-  text.replace('jenny' || 'Jenne', "jeni")
+    text.toLowerCase();
+  text.replace('jenny' || 'jenne', "jeni")
   text.replace('jeni', "")
-  if (text.includes("hello" || 'hello.' || 'hey.' || 'hey' || 'yo' || "yo." ||"jeni")) {
+  if (text.includes("hello" || 'hello.' || 'hey.' || 'hey' || 'yo' || "yo." ||"jeni" || "Jennne" || "jenne")) {
     speak("Hello sir How Can I Help You?");
 
   }
   else if (text.includes("who are you" || '')) {
     speak("I am Jeni, Made By Junaid Sir");
   }
-  else if (text.includes("who Is junaid" || 'Junaid')) {
+  else if (text.includes("who is junaid" || 'junaid.')) {
     speak("Junaid sir, Is a web Devloper Live In Chattisgarh, And he is My Creator");
   }
-  else if (text.includes("open YouTube" || 'yt')) {
+  else if (text.includes("open youtube" || 'yt')) {
     speak("Opening Youtube");
     window.open('https://www.youtube.com/')
   }
-  else if (text.includes("open Facebook" || 'yt')) {
+  else if (text.includes("open facebook" || 'yt')) {
     speak("Opening Facebook");
     window.open('https://www.facebook.com/')
   }
-  else if (text.includes("open Instagram" || 'yt')) {
+  else if (text.includes("open instagram" || 'yt')) {
     speak("Opening instagram");
     window.open('https://www.instagram.com/')
   }
